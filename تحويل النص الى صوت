@@ -5,6 +5,8 @@ import os
 pyTelegramBot.API
 gTTS
 
+worker: python bo.py
+
 # ضع هنا رمز الـ API الخاص بالبوت
 BOT_TOKEN = '7613699439:AAHLO_PFkOX84PihE7tEobJjABVQMcNJZ_Q'
 
