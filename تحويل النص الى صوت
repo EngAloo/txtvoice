@@ -2,7 +2,7 @@ import telebot
 from gtts import gTTS
 import os
 
-pyTelegramBot.API
+pyTelegramBotAPI
 gTTS
 
 worker: python bo.py
@@ -11,7 +11,7 @@ worker: python bo.py
 BOT_TOKEN = '7613699439:AAHLO_PFkOX84PihE7tEobJjABVQMcNJZ_Q'
 
 # إنشاء كائن البوت
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot("7613699439:AAHLO_PFkOX84PihE7tEobJjABVQMcNJZ_Q")
 
 # وظيفة لاستقبال الرسائل
 @bot.message_handler(func=lambda message: True)
